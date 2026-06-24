@@ -39,7 +39,7 @@ Despite having data on customer engagement and product usage, banks often lack:
 
 As a result, retention strategies are frequently generic and misaligned with actual customer behavior.
 
-##Project Objectives
+## Project Objectives
 
 • Evaluate the relationship between engagement and churn
 
@@ -55,7 +55,7 @@ Secondary Objectives
 
 • Reduce silent churn among premium customers
 
-##Dataset Description
+## Dataset Description
 
 Column	Description
 
@@ -87,50 +87,94 @@ Exited	Churn indicator (target)
 
 ## Analytical Methodology (Step-by-Step)
 
-Data Ingestion & Validation
+ Data Ingestion & Validation
+ 
 • Load dataset
+
 • Validate engagement and product fields
+
 • Ensure binary variables consistency
+
 • Confirm churn labeling accuracy
-Engagement Classification
+
+## Engagement Classification
+
 Create engagement profiles:
 
 • Active engaged customers
+
 • Inactive disengaged customers
+
 • Active but low-product customers
+
 • Inactive high-balance customers
-Product Utilization Analysis
+
+## Product Utilization Analysis
+
 • Churn rate by number of products
+
 • Single-product vs multi-product retention
+
 • Product depth vs churn relationship
-Financial Commitment vs Engagement Analysis
+
+## Financial Commitment vs Engagement Analysis
+
 • Balance vs activity cross-analysis
+
 • Salary–balance mismatch detection
+
 • Identification of “at-risk premium customers”
-Retention Strength Assessment
+
+## Retention Strength Assessment
+
 • Define “sticky customer” profiles
+
 • Measure churn stability across engagement tiers
+
 • Identify engagement thresholds linked to retention
-Key Performance Indicators (KPIs)
-KPI Name	Description
-Engagement Retention Ratio	Active vs inactive churn comparison
-Product Depth Index	Products used vs loyalty
-High-Balance Disengagement Rate	Premium churn risk
-Credit Card Stickiness Score	Card ownership retention impact
-Relationship Strength Index	Combined engagement & product score
-Streamlit Web Application Requirements
+
+## Key Performance Indicators (KPIs)
+
+1) KPI Name	Description
+   
+2)Engagement Retention Ratio	Active vs inactive churn comparison
+
+3)Product Depth Index	Products used vs loyalty
+
+4)High-Balance Disengagement Rate	Premium churn risk 
+
+5)Credit Card Stickiness Score	Card ownership retention impact
+
+6)Relationship Strength Index	Combined engagement & product score
+
+## Streamlit Web Application Requirements
+
 Core Modules
+
 • Engagement vs churn overview
+
 • Product utilization impact analysis
+
 • High-value disengaged customer detector
+
 • Retention strength scoring panels
+
 User Capabilities
+
 • Engagement filters
+
 • Product count sliders
+
 • Balance and salary thresholds
+
 Deliverables and Submission
+
 • Research paper (EDA, insights, recommendations)
+
 • Streamlit dashboard (live analytics)
+
 • Executive summary for government stakeholders
-Conclusion
+
+## Conclusion
+
 This project reframes customer churn from a behavioral and relationship-strength perspective. By focusing on engagement and product utilization rather than demographics, it provides actionable insights for retention strategy design, product optimization, and customer loyalty enhancement.
