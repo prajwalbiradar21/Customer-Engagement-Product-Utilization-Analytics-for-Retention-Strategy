@@ -2,7 +2,7 @@
 This is an EDA project done on Given Dataset downloaded from Companies website
 
 
--------------------
+--------------------
 
 ## Background and Context
 Banks increasingly recognize that customer behavior and engagement—not just demographics—determine long-term retention. Customers may appear financially strong (high balance or salary) but still churn due to:
